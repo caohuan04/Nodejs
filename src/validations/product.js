@@ -34,6 +34,7 @@ const updateProduct = Joi.object({
         "string.empty": "Không được để trống Price"
     }),
     description: Joi.string(),
+    category: Joi.string(),
     rate: Joi.number().min(1).max(5).messages({
         "number.empty": "Không được để trống Rate",
         "number.min": "Bắt buộc phải lớn hơn 1",

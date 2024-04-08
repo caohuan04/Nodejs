@@ -83,10 +83,6 @@ paths:
           description: Invalid input
         "422":
           description: Validation exception
-      security:
-        - productsstore_auth:
-            - write:productss
-            - read:productss
   /products/{id}:
     get:
       tags:
