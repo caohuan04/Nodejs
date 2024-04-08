@@ -1,6 +1,6 @@
 import bcryptjs from "bcryptjs";
-import { registerValidate, loginValidate } from "../validations/auth";
-import User from "../model/UsersModel";
+import { registerValidate, loginValidate } from "../validations/auth.js";
+import User from "../model/UsersModel.js";
 import jwt from "jsonwebtoken";
 
 class AuthController {

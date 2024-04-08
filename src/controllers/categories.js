@@ -1,4 +1,4 @@
-import Category from "../model/CategoryModel";
+import Category from "../model/CategoryModel.js";
 
 class CategoriesController {
     async getAllCategories(req, res) {

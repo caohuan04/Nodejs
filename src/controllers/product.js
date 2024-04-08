@@ -1,5 +1,5 @@
-import Product from "../model/ProductsModel";
-import { createProduct, updateProduct } from "../validations/product";
+import Product from "../model/ProductsModel.js";
+import { createProduct, updateProduct } from "../validations/product.js";
 
 class ProductController {
     async getAllProducts(req, res) {
